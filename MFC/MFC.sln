@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MFC_APPLICATION_BASICS", "M
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GDI", "GDI\GDI.vcxproj", "{298EAB10-1094-4491-9EBA-FDD98C423203}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TIC_TAC", "TIC_TAC\TIC_TAC.vcxproj", "{1BE43A2F-EB7F-46D8-85F0-542A79B1AEF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{298EAB10-1094-4491-9EBA-FDD98C423203}.Release|x64.Build.0 = Release|x64
 		{298EAB10-1094-4491-9EBA-FDD98C423203}.Release|x86.ActiveCfg = Release|Win32
 		{298EAB10-1094-4491-9EBA-FDD98C423203}.Release|x86.Build.0 = Release|Win32
+		{1BE43A2F-EB7F-46D8-85F0-542A79B1AEF0}.Debug|x64.ActiveCfg = Debug|x64
+		{1BE43A2F-EB7F-46D8-85F0-542A79B1AEF0}.Debug|x64.Build.0 = Debug|x64
+		{1BE43A2F-EB7F-46D8-85F0-542A79B1AEF0}.Debug|x86.ActiveCfg = Debug|Win32
+		{1BE43A2F-EB7F-46D8-85F0-542A79B1AEF0}.Debug|x86.Build.0 = Debug|Win32
+		{1BE43A2F-EB7F-46D8-85F0-542A79B1AEF0}.Release|x64.ActiveCfg = Release|x64
+		{1BE43A2F-EB7F-46D8-85F0-542A79B1AEF0}.Release|x64.Build.0 = Release|x64
+		{1BE43A2F-EB7F-46D8-85F0-542A79B1AEF0}.Release|x86.ActiveCfg = Release|Win32
+		{1BE43A2F-EB7F-46D8-85F0-542A79B1AEF0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

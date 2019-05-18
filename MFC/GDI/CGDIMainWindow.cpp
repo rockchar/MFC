@@ -68,5 +68,14 @@ CGDIMainWindow::~CGDIMainWindow()
 
 void CGDIMainWindow::OnPaint()
 {
+	CPaintDC pDc(this);
+	CRect rect;
+	GetClientRect(&rect);
+	pDc.SetMapMode(MM_ISOTROPIC);
+	pDc.SetWindowExt(500, 500);
+	pDc.SetViewportExt(rect.Width(), rect.Height());
+	pDc.Ellipse(0, 0, 500, 500);
+
+	
 
 }
